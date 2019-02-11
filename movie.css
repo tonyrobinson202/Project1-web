@@ -1,0 +1,141 @@
+/*Group: Lena Wayson, Tony Robinson
+    Section: Web Programming 4300, class 26666
+    This is a review page for the teenage mutant ninja turtles movie. Providing reviews, average rating, 
+    and movie information. This file contains the css for styling the webpage*/
+body {
+    background-image: url("moviebg.png");
+    font-family: Verdana, Tahoma, sans-serif;
+    font-size: 8pt;
+    margin: 0;
+    padding: 0;
+}
+
+.banner {
+    background-image: url("rancidbannerbg.png");
+    background-size: cover;
+    height: 50px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    
+}
+
+.banner img {
+    background-size: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.col {
+    padding: 0 1%;
+    vertical-align: top;
+    width: 47%;
+}
+
+.content {
+    border: 4px solid gray;
+    border-radius: 18px 18px;
+    margin: 0 auto;
+    overflow: hidden;
+    width: 800px;
+}
+
+h1 {
+    font-size: 24pt;
+    font-weight: bold;
+    text-align: center;
+    text-shadow: 3px 3px #999999;
+}
+
+.heading {
+    margin-top: 72px;
+}
+
+dd {
+    line-height: 10pt;
+    padding-bottom: 10pt;
+}
+
+ul {
+    padding:0;
+}
+
+li {
+    list-style: none;
+}
+
+dt{
+    font-weight: bold; 
+}
+
+.overview-dl{
+    padding-left: 10pt;
+}
+
+.overview {
+    background-color: #A2B964;
+    font-family: Arial, sans-serif;
+    font-size: 8pt;
+    float: right;
+    /*line-height: 20pt;*/
+    width: 250px;
+}
+
+.rating {
+    background-image: url('rottenlargebg.png');
+    height: 83px;
+    vertical-align: top;
+}
+
+.left-side {
+    /* background-color: red; */
+    float: left;
+    width: 550px;
+    clear:both;
+}
+
+.rottenrating {
+    color: red;
+    display: inline;
+    font-size: 48px;
+    font-weight: bold;
+    vertical-align: bottom;
+}
+
+.rottenrating-disclaimer {
+    color: white;
+    display: inline;
+    font-size: 8pt;
+    vertical-align: super;
+}
+
+.bar{
+    background-color: #A2B964;
+    clear: both;
+    margin: 0;
+    padding: 5px 0;
+    text-align: center;
+}
+
+.icon {
+    float: left;
+    padding-right: 5px;
+}
+
+.quote-box {
+    background-color: #E8DC9B;
+    border: 2px solid gray;
+    border-radius: 5px 5px;
+    font-size: 8pt;
+    font-weight: bold;
+    min-height: 25px;
+    padding: 8px;
+}
+
+.review {
+    padding-bottom: 20pt;
+}
+
+.loc{
+    font-style: italic; 
+}
